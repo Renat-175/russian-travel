@@ -1,0 +1,17 @@
+.photo-grid__item {
+  width: 100%;
+}
+@media screen and (min-width: 767px) {
+  .photo-grid__item {
+  width: 100%;
+  }
+  }
+  @media screen and (min-width: 1023px) {
+  .photo-grid__item {
+  width: 100%;
+  }
+  @media screen and (min-width: 1279px) {
+  .photo-grid__item {
+  width: 100%;
+  }
+  }

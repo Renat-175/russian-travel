@@ -1,0 +1,22 @@
+  .photo-grid {
+  display: grid;
+  left: 16px;
+  right: 16px;
+}
+@media screen and (min-width: 767px) {
+  .photo-grid {
+  left: 24px;
+  right: 24px;
+  }
+}
+@media screen and (min-width: 1023px) {
+  .photo-grid {
+  width: 100%;
+  left: 48px;
+  right: 48px;
+}
+@media screen and (min-width: 1279px) {
+  .photo-grid {
+  width: 100%;
+  }
+  }

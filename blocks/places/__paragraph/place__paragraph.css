@@ -1,0 +1,29 @@
+.place__paragraph {
+  min-width: 288px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 163%;
+  color: #FFFFFF;
+  margin: 0 auto;
+}
+@media screen and (min-width: 767px) {
+  .place__paragraph {
+  width: 100%;
+  margin: 0 auto;
+
+}
+@media screen and (min-width: 1023px) {
+  .place__paragraph {
+  font-size: 18px;
+  width: 100%;
+  margin: 0 auto;
+}
+}
+@media screen and (min-width: 1279px) {
+  .place__paragraph {
+  width: 100%;
+  margin: 0 auto;
+  }
+  }
