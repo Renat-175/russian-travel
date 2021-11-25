@@ -3,12 +3,12 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 320px;
-  grid-gap: 50px;
+  gap: 50px;
 }
 @media screen and (min-width: 767px) {
   .places {
   grid-template-columns: 720px;
-  grid-gap: 72px;
+  gap: 72px;
   width: 100%;
   margin: 0 auto;
   }
@@ -16,14 +16,14 @@
 @media screen and (min-width: 1023px) {
   .places {
   grid-template-columns: 928px;
-  grid-gap: 80px;
+  gap: 80px;
   width: 100%;
   margin: 0 auto;
 }
 @media screen and (min-width: 1279px) {
   .places {
   grid-template-columns: 984px;
-  grid-gap: 80px;
+  gap: 80px;
   max-width: 984px;
   margin: 0 auto;
   }

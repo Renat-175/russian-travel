@@ -1,6 +1,10 @@
 .wrapeer {
   display: grid;
   row-gap: 64px;
+  width: 100%;
+  grid-template-columns: 1fr;
+  margin: 0;
+  padding: 0;
 }
 @media screen and (min-width: 767px) {
   .wrapeer {
@@ -14,5 +18,6 @@
   @media screen and (min-width: 1279px) {
   .wrapeer {
   row-gap: 92px;
+
   }
   }
