@@ -1,20 +1,18 @@
 .wrapeer {
-  width: 100%;
   display: grid;
-  grid-template-columns: 1fr;
   row-gap: 64px;
 }
 @media screen and (min-width: 767px) {
   .wrapeer {
-    row-gap: 88px;
+  row-gap: 88px;
   }
   }
   @media screen and (min-width: 1023px) {
   .wrapeer {
-    row-gap: 92px;
+  row-gap: 92px;
   }
   @media screen and (min-width: 1279px) {
   .wrapeer {
-    row-gap: 92px;
+  row-gap: 92px;
   }
   }
