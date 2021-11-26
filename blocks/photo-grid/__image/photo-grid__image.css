@@ -1,8 +1,7 @@
   .photo-grid__image {
   display: grid;
   max-width: 288px;
-  grid-template-columns: (auto-fill minmax(288px 352px));
-  grid-template-rows: (auto-fill minmax(216px));
+  grid-template-columns: (auto-fill minmax(284px 1fr));
   margin: 0;
   row-gap: 12px;
   padding: 0;
@@ -10,23 +9,28 @@
 @media screen and (min-width: 767px) {
   .photo-grid__image{
   max-width: 720px;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-auto-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   gap: 16px;
+  display: inline-block;
   }
   }
   @media screen and (min-width: 1023px) {
   .photo-grid__image{
   max-width: 928px;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   gap: 14px;
+  display: inline-block;
   }
   @media screen and (min-width: 1279px){
   .photo-grid__image {
   max-width: 1184px;
+  display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 16px;
   }
   }
