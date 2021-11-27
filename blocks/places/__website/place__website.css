@@ -1,8 +1,9 @@
 .place__website {
   margin: 0;
-  min-width: 100%;
-  align-self: self-end;
+  width: 100%;
   grid-area: website;
+  outline: solid 1px red;
+
 }
 @media screen and (min-width: 767px) {
 .place__website {

@@ -1,4 +1,15 @@
 .photo-grid__photo {
   list-style-type: none;
 }
+@media screen and (min-width: 767px) {
+  .photo-grid__photo {}
+}
+@media screen and (min-width: 1023px) {
+  .photo-grid__photo {}
+}
+@media screen and (min-width: 1279px) {
+  .photo-grid__photo {
+  }
+}
+
 

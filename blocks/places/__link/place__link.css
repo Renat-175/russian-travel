@@ -1,32 +1,27 @@
 .place__link {
-  min-width: 288px;
+  width: 100%;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 22px;
-  text-decoration-line: underline;
   color: #FFFFFF;
   margin: 0;
   padding: 0;
+  text-align: start;
+  outline: solid 1px red;
 }
 @media screen and (min-width: 767px) {
   .place__link {
   width: 100%;
-  padding: 0;
-  margin: 0;
   }
 }
 @media screen and (min-width: 1023px) {
   .place__link {
   width: 100%;
-  padding: 0;
-  margin: 0;
 }
 @media screen and (min-width: 1279px) {
   .place__link {
-  padding: 0;
   max-width: 456px;
-  margin: 0;
   }
   }
