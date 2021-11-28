@@ -14,7 +14,6 @@
   text-decoration: none;
   bottom: 0;
   right: 0;
-  width: 100%;
 }
 @media screen (min-width: 767px) {
 .header__lang-link {
@@ -28,12 +27,10 @@
   right: 0;
   max-width: 29px;
   max-height: 28px;
-  margin: 0 auto;
 }
 }
 @media screen (min-width: 1023px) {
   .header__lang-link {
-  margin: 0 auto;
   width: 100%;
   left: 675px;
   bottom: 0;
@@ -48,15 +45,9 @@
 @media screen (min-width: 1279px) {
   .header__lang-link {
   left: 931px;
-  width: 100%;
-  bottom: 0;
-  margin: 0 auto;
-  }
+}
 }
   .header__lang-link:nth-child {
-  width: 100%;
-  bottom: 0;
-  right: 0;
-  margin: 0 auto;
+
   }
 

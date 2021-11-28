@@ -19,13 +19,9 @@
   }
   @media screen and (min-width: 1024px) {
   .cover__title {
-  max-width: 560px;
   }
   @media screen and (min-width: 1280px) {
   .cover__title {
-  max-width: 560px;
-  justify-content: center;
-  text-align: center;
   }
   }
 }
