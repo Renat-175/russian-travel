@@ -8,8 +8,8 @@
   color: #FFFFFF;
   margin: 0;
   padding: 0;
-  text-align: start;
-  outline: solid 1px red;
+  box-sizing: border-box;
+  text-align: left;
 }
 @media screen and (min-width: 767px) {
   .place__link {

@@ -1,15 +1,14 @@
 .footer__linklist {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: space-between;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: (auto-fill minmax(70px 1fr));
+  row-gap: 32px;
 }
 @media screen and (min-width: 767px) {
   .footer__linklist {
-  margin: 88px 24px 24px 24px;
-  max-width: 720px;
+  padding: 88px auto 24px auto;
+  row-gap: 18px;
+
+  grid-template-columns: repeat(5, auto);
   }
   }
   @media screen and (min-width: 1023px) {

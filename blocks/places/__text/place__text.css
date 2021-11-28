@@ -2,22 +2,12 @@
   width: 100%;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: 1f;
-  grid-gap: 25px;
+ 
   grid-area: text;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: 1f;
-  grid-gap: 25px;
-
 }
 @media screen and (min-width: 767px) {
   .place__text {
   width: 100%;
-  grid-gap: 25px;
   margin: 0;
 
 }
@@ -25,13 +15,11 @@
   .place__text {
   width: 100%;
   margin: 0;
-  grid-gap: 27px;
 }
 }
 @media screen and (min-width: 1279px) {
   .place__text {
   width: 100%;
-  margin: 0 ;
-  grid-gap: 26px;
+  padding: 48px 0 86px 40px ;
   }
   }

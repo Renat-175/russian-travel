@@ -2,25 +2,24 @@
   margin: 0;
   width: 100%;
   grid-area: website;
-  outline: solid 1px red;
+  margin: 32px 16px 0 16px;
 
 }
 @media screen and (min-width: 767px) {
 .place__website {
   width: 100%;
   padding-right: 0;
-  margin: 0;
+  top: 46px;
   }
 }
 @media screen and (min-width: 1023px) {
 .place__website {
   width: 100%;
-  padding-right: 0;
-  margin: 0 ;
+  padding: 0;
+  margin: 106px 0 0 0;
 }
 @media screen and (min-width: 1279px) {
 .place__website {
   max-width: 456px;
-  margin: 0;
   }
   }

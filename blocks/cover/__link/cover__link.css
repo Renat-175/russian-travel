@@ -9,7 +9,7 @@
   text-decoration: none;
   background-image: url(../../../blocks/images/cover-trains.jpg);
   position: relative;
-  margin: 0 auto;
+  margin: 0;
   outline: solid 1 px red;
 }
 .cover__link::before {
