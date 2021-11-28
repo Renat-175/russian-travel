@@ -2,14 +2,14 @@
   width: 100%;
   margin: 0;
   padding: 0;
- 
+
   grid-area: text;
 }
 @media screen and (min-width: 767px) {
   .place__text {
   width: 100%;
   margin: 0;
-
+}
 }
 @media screen and (min-width: 1023px) {
   .place__text {

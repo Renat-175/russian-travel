@@ -7,15 +7,8 @@
   .footer {
   margin: 88px 24px 24px 24px;
   display: grid;
-  grid-template-columns: 1fr 186px ;
+  grid-template-columns: 1fr 186px;
   }
   }
-  @media screen and (min-width: 1023px) {
-  .footer {
-    grid-template-columns: repeat(90% 186px);
-  }
-  @media screen and (min-width: 1279px) {
-  .footer {
 
-  }
-  }
+

@@ -28,6 +28,7 @@
   text-align: center;
   }
   }
+}
 @media screen end (max-width: 540px){
   .cover__title {
   font-size: 32px;

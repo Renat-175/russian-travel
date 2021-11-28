@@ -23,6 +23,7 @@
 .lead__title {
   width: 100%;
 }
+}
 @media screen and (min-width: 1279px) {
 .lead__title {
 }

@@ -17,15 +17,15 @@
   width: 720px;
   }
   }
-  @media screen and (min-width: 1023px) {
+@media screen and (min-width: 1023px) {
   .content {
   row-gap: 92px;
   column-gap: 48px;
   width: 928px;
   }
-  @media screen and (min-width: 1279px) {
+}
+@media screen and (min-width: 1279px) {
   .content {
-    row-gap: 92px;
-    width: 1184px;
+  width: 1184px;
   }
   }

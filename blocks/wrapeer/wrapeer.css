@@ -12,9 +12,9 @@
   .wrapeer {
   row-gap: 92px;
   }
+}
   @media screen and (min-width: 1279px) {
   .wrapeer {
   row-gap: 92px;
-
   }
   }
