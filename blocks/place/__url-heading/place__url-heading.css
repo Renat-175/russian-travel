@@ -1,28 +1,28 @@
-.place__link {
-  width: 100%;
+.place__url-heading {
+  min-width: 288px;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 22px;
-  color: #FFFFFF;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #AAAAAA;
+  margin: 0 ;
+  padding: 0 0 12px 0;
   text-align: left;
+
 }
 @media screen and (min-width: 767px) {
-  .place__link {
+  .place__url-heading {
   width: 100%;
   }
 }
 @media screen and (min-width: 1023px) {
-  .place__link {
-  width: 100%;
+  .place__url-heading {
 }
 }
 @media screen and (min-width: 1279px) {
-  .place__link {
+  .place__url-heading {
   max-width: 456px;
   }
   }
