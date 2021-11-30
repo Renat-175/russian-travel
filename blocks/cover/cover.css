@@ -1,4 +1,23 @@
 .cover {
   margin: 0;
-  width: 100%;
+  min-width: 320px;
 }
+@media screen and (min-width: 200px) {
+  .cover {
+  width: 100%;
+  }
+  }
+@media screen and (min-width: 480px) {
+  .cover {
+
+  }
+}
+@media screen and (min-width: 640px) {
+  .cover {
+  }
+  }
+  @media screen and (min-width: 740px) {
+    .cover {
+
+    }
+  }
