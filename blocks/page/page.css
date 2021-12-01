@@ -1,12 +1,10 @@
 .page {
-  margin: 0 auto;
   font-family: 'Inter', Arial, sans-serif;
-  width: 100%;
   background: #2A2C2F;
   --webkit-font-smoothing: antialised;
   padding-top: 16px;
   box-sizing: content-box;
-  box-sizing: border-box;
+
 }
 @media screen and (min-width: 319px) and (max-width: auto) {
  .page {

@@ -1,5 +1,6 @@
 .cover__link {
   width: 100%;
+  min-height: 740px;
   background-size: cover;
   background-position: center;
   object-fit: cover;

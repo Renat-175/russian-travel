@@ -1,5 +1,5 @@
 .wrapeer {
-  max-width: 1216px;
+  min-width: 200px;
   margin: 0 auto;
   padding: 0 16px;
   display: grid;
