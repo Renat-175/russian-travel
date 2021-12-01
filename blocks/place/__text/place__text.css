@@ -1,8 +1,10 @@
 .place__text {
-  width: 100%;
+  min-width: 288px;
   margin: 0;
   padding: 0;
   grid-area: text;
+  outline: solid 1px rgb(28, 246, 228);
+
 }
 @media screen and (min-width: 767px) {
   .place__text {
@@ -14,6 +16,6 @@
 }
 @media screen and (min-width: 1279px) {
   .place__text {
-  padding: 48px 0 86px 40px;
+    max-width: 484px;
   }
   }

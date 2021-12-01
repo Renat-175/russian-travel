@@ -2,6 +2,7 @@
   max-width: 1216px;
   margin: 0 auto;
   padding: 0 16px;
+  display: grid;
 }
 @media screen and (min-width: 767px) {
   .wrapeer {
@@ -15,6 +16,5 @@
 }
   @media screen and (min-width: 1279px) {
   .wrapeer {
-  row-gap: 92px;
   }
   }

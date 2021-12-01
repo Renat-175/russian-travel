@@ -1,8 +1,8 @@
 .lead {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin: 0 auto;
+  min-width: 318px;
+  margin: 0;
   padding: 0;
 }
 @media screen and (min-width: 767px) {

@@ -1,22 +1,17 @@
 .cover {
   margin: 0;
-  min-height: 100%;
+  min-height: 200px;
 }
-@media screen and (min-width: 200px) {
+@media screen and (min-height: 480px) {
   .cover {
-  }
-  }
-@media screen and (min-width: 480px) {
-  .cover {
-
+  height: 100%;
   }
 }
-@media screen and (min-width: 640px) {
+@media screen and (min-height: 640px) {
   .cover {
   }
   }
-  @media screen and (min-width: 740px) {
+  @media screen and (min-height: 740px) {
     .cover {
-
     }
   }

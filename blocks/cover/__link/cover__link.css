@@ -9,7 +9,6 @@
   background-image: url(../../../blocks/images/cover-trains.jpg);
   position: relative;
   margin: 0;
-  outline: solid 1 px red;
 }
 .cover__link::before {
   content: "";
@@ -18,7 +17,7 @@
   background: black;
   position: absolute;
   opacity: 0.3;
-  transition: 6s;
+  transition: 3s;
 }
 .cover__link:hover::before {
   opacity: 0.8;
