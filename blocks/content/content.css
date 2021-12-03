@@ -10,7 +10,6 @@
   align-items: stretch;
   justify-items: stretch;
   box-sizing: border-box;
-  min-width: 200px;
 }
 @media screen and (min-width: 767px) {
   .content {
