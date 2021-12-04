@@ -1,13 +1,15 @@
 .footer {
   width: 186px;
-  margin: 0 auto 24px 16px;
+  margin: 0 auto 0 16px;
+  padding-bottom: 24px;
   row-gap: 48px;
 }
 @media screen and (min-width: 767px) {
   .footer {
-  margin: 0 24px 24px 24px;
-  display: grid;
-  grid-template-columns: 1fr 186px;
+    margin: 92px 24px 0 24px;
+    display: grid;
+    grid-template-columns: 1fr 186px;
+    justify-content: space-between;
   }
   }
 

@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  background-image: url(../../../blocks/images/cover-trains.jpg);
+  background-image: url(../../../images/cover-trains.jpg);
   position: relative;
   margin: 0;
 }
