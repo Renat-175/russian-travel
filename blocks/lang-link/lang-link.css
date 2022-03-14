@@ -1,4 +1,4 @@
-.lang-link__item {
+.lang-link {
   width: 100%;
   font-family: Inter;
   font-style: normal;
@@ -13,16 +13,16 @@
   position: relative;
   transform: translate(-50%, -50%);
 }
-.lang-link__item:hover {
+.lang-link:hover {
   background: #AAAAAA;
   opacity: 0.8;
 }
-.lang-link__item:hover::before {
+.lang-link:hover::before {
   transform: scaleX(1);
   transition: transform 0.25s;
   transform-origin: right;
 }
-.lang-link__item::before{
+.lang-link::before{
   content: "";
   width: 100%;
   background-color: #AAAAAA;
@@ -34,7 +34,7 @@
   transform-origin: left;
 }
 @media screen (min-width: 767px) {
-.lang-link__item {
+.lang-link {
   max-width: 30px;
   max-height: 28px;
   margin-left:;
