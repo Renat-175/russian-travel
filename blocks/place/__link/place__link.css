@@ -10,6 +10,28 @@
   padding: 0;
   box-sizing: border-box;
   text-align: left;
+  position: relative;
+}
+.place__link:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  transition: transform 0.25s;
+}
+.place__link:hover::before {
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.25s;
+}
+.place__link::before{
+  content: "";
+  width: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  text-decoration-line: underline;
+  left: 0;
+  bottom: -5px;
+  transform: scaleX(0);
+  transform-origin: left;
 }
 @media screen and (min-width: 767px) {
   .place__link {
