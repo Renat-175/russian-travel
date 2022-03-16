@@ -15,13 +15,4 @@
   width: 100%;
 }
 }
-@media screen and (min-width: 1023px) {
-  .intro__list {
-  width: 100%;
-}
-}
-@media screen and (min-width: 1279px) {
-  .intro__list {
-  width: 100%;
-  }
 }

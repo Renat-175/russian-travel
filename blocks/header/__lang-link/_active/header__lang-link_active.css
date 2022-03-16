@@ -1,5 +1,6 @@
 .header__lang-link_active{
-  width: 100%;
+  width: 22px;
+  height: 20px;
   bottom: 0;
   font-family: Inter;
   font-style: normal;
@@ -31,3 +32,9 @@
   transform: scaleX(0);
   transform-origin: left;
 }
+@media screen and (min-width: 767px) {
+  .header__lang-link_active {
+    max-width: 30px;
+    max-height: 28px;
+  }
+  }

@@ -5,24 +5,10 @@
   object-fit: scale-down;
   background: #FFFFFF;
 }
-@media screen (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .header__logo {
   width: 100%;
   margin: 0;
   padding: 0;
   }
 }
-  @media screen (min-width: 1024px) {
-  .header__logo {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  }
-  }
-  @media screen (min-width: 1280px) {
-  .header__logo {
-  margin: 0;
-  width: 100%;
-  padding: 0;
-    }
-  }

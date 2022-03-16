@@ -14,7 +14,7 @@
 
 **Сылка**
 
-- [Ссылка на мой проект](https://github.com/Renat-175/russian-travel)
+- [Ссылка на мой проект](https://renat-175.github.io/russian-travel/)
 
 **Картинки**
 
