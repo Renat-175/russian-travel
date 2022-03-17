@@ -11,8 +11,8 @@
   margin-left: 18px;
   margin-right: 16px;
   text-decoration: none;
+  bottom: 0;
   position: relative;
-  transform: translate(-50%, -50%);
 }
 .header__lang-link:hover {
   background: #AAAAAA;
@@ -36,15 +36,14 @@
 }
 @media screen and (min-width: 767px) {
 .header__lang-link {
-  max-width: 29px;
-  max-height: 28px;
+  width: 29px;
+  height: 28px;
   margin-left:467px;
   margin-right: 24px;
 }
 }
 @media screen and (min-width: 1023px) {
   .header__lang-link {
-  width: 100%;
   margin-right: 48px;
 }
 }

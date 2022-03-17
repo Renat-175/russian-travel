@@ -5,10 +5,3 @@
   object-fit: scale-down;
   background: #FFFFFF;
 }
-@media screen and (min-width: 768px) {
-  .header__logo {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  }
-}
