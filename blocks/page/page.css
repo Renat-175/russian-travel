@@ -4,7 +4,7 @@
   --webkit-font-smoothing: antialised;
   padding-top: 16px;
   box-sizing: content-box;
-
+  outline: solid 1px red;
 }
 @media screen and (min-width: 319px) and (max-width: auto) {
  .page {
