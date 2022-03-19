@@ -1,7 +1,7 @@
 .header__lang-link_active{
   width: 22px;
   height: 20px;
-  bottom: 0;
+  margin: 0;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -36,6 +36,5 @@
   .header__lang-link_active {
     max-width: 30px;
     max-height: 28px;
-    margin-left: 467px;
   }
   }
