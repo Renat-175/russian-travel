@@ -17,5 +17,11 @@
 }
 @media screen and (min-width: 319px) and (max-width: 1280px) {
   .wrapeer {
+    max-width: 1280px;
+  }
+ }
+@media screen and (min-width: 319px) and (max-width: 1280px) {
+  .wrapeer {
+    max-width: 1280px;
   }
  }
