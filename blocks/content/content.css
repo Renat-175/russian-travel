@@ -10,6 +10,7 @@
   align-items: stretch;
   justify-items: stretch;
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 @media screen and (min-width: 767px) {
   .content {

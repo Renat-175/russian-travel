@@ -4,10 +4,6 @@
   min-width: 318px;
   margin: 0 auto;
 }
-@media screen and (min-width: 767px) {
-  .lead {
-  }
-}
 @media screen and (min-width: 1023px) {
   .lead {
   padding: 0 48px 0 48px;
