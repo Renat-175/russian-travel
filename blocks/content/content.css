@@ -10,7 +10,7 @@
   align-items: stretch;
   justify-items: stretch;
   box-sizing: border-box;
-  outline: 1px solid red;
+  width: auto;
 }
 @media screen and (min-width: 767px) {
   .content {
@@ -24,8 +24,3 @@
   column-gap: 48px;
 }
 }
-@media screen and (max-width: 1280px) {
-  .content {
-    width: 1280px;
-  }
- }

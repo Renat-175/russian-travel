@@ -7,11 +7,3 @@
   height: 100%;
   }
 }
-@media screen and (min-height: 640px) {
-  .cover {
-  }
-  }
-  @media screen and (min-height: 740px) {
-    .cover {
-    }
-  }
