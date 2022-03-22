@@ -1,20 +1,4 @@
 .header__lang-link_active{
-  width: 22px;
-  height: 20px;
-  margin: 0;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 20px;
-  color: #FFFFFF;
-  text-align: right;
-  position: relative;
   text-decoration-line: underline;
 }
-@media screen and (min-width: 767px) {
-  .header__lang-link_active {
-    max-width: 30px;
-    max-height: 28px;
-  }
-  }
+
